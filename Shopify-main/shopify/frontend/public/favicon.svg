@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9333ea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad)"/>
+  
+  <!-- Shopping bag icon -->
+  <path d="M 30 35 L 35 70 Q 35 75 40 75 L 60 75 Q 65 75 65 70 L 70 35 Z" 
+        fill="white" stroke="white" stroke-width="2"/>
+  
+  <!-- Bag handles -->
+  <path d="M 38 35 Q 38 25 50 25 Q 62 25 62 35" 
+        fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Rupee symbol -->
+  <text x="50" y="60" font-family="Arial, sans-serif" font-size="20" 
+        font-weight="bold" fill="url(#grad)" text-anchor="middle">₹</text>
+</svg>
